@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"strings"
 
-	cpu "github.com/shirou/gopsutil/v3/cpu"
-	"github.com/shirou/gopsutil/v3/internal/common"
-	net "github.com/shirou/gopsutil/v3/net"
+	cpu "github.com/vircoys/gopsutil/cpu"
+	"github.com/vircoys/gopsutil/internal/common"
+	net "github.com/vircoys/gopsutil/net"
 	"golang.org/x/sys/unix"
 )
 

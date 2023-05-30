@@ -8,8 +8,8 @@ import (
 	"context"
 	"encoding/binary"
 
-	"github.com/shirou/gopsutil/v3/cpu"
-	"github.com/shirou/gopsutil/v3/internal/common"
+	"github.com/vircoys/gopsutil/cpu"
+	"github.com/vircoys/gopsutil/internal/common"
 )
 
 type MemoryInfoExStat struct{}

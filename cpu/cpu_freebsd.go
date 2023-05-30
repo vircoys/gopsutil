@@ -10,8 +10,8 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/shirou/gopsutil/v3/internal/common"
 	"github.com/tklauser/go-sysconf"
+	"github.com/vircoys/gopsutil/internal/common"
 	"golang.org/x/sys/unix"
 )
 

@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net"
 
-	"github.com/shirou/gopsutil/v3/internal/common"
+	"github.com/vircoys/gopsutil/internal/common"
 )
 
 var invoke common.Invoker = common.Invoke{}

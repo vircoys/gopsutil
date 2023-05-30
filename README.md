@@ -1,6 +1,6 @@
 # gopsutil: psutil for golang
 
-[![Test](https://github.com/shirou/gopsutil/actions/workflows/test.yml/badge.svg)](https://github.com/shirou/gopsutil/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/shirou/gopsutil/badge.svg?branch=master)](https://coveralls.io/github/shirou/gopsutil?branch=master) [![Go Reference](https://pkg.go.dev/badge/github.com/shirou/gopsutil/v3.svg)](https://pkg.go.dev/github.com/shirou/gopsutil/v3) [![Go Documentation](https://godocs.io/github.com/shirou/gopsutil/v3?status.svg)](https://godocs.io/github.com/shirou/gopsutil/v3) [![Calendar Versioning](https://img.shields.io/badge/calver-vMAJOR.YY.MM-22bfda.svg)](https://calver.org/)
+[![Test](https://github.com/shirou/gopsutil/actions/workflows/test.yml/badge.svg)](https://github.com/shirou/gopsutil/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/shirou/gopsutil/badge.svg?branch=master)](https://coveralls.io/github/shirou/gopsutil?branch=master) [![Go Reference](https://pkg.go.dev/badge/github.com/vircoys/gopsutil.svg)](https://pkg.go.dev/github.com/vircoys/gopsutil) [![Go Documentation](https://godocs.io/github.com/vircoys/gopsutil?status.svg)](https://godocs.io/github.com/vircoys/gopsutil) [![Calendar Versioning](https://img.shields.io/badge/calver-vMAJOR.YY.MM-22bfda.svg)](https://calver.org/)
 
 This is a port of psutil (https://github.com/giampaolo/psutil). The
 challenge is porting all psutil functions on some architectures.
@@ -52,7 +52,7 @@ package main
 import (
     "fmt"
 
-    "github.com/shirou/gopsutil/v3/mem"
+    "github.com/vircoys/gopsutil/mem"
     // "github.com/shirou/gopsutil/mem"  // to use v2
 )
 
@@ -98,7 +98,7 @@ You can set an alternative location to `/proc/N/mountinfo` by setting the
 
 ## Documentation
 
-See https://pkg.go.dev/github.com/shirou/gopsutil/v3 or https://godocs.io/github.com/shirou/gopsutil/v3
+See https://pkg.go.dev/github.com/vircoys/gopsutil or https://godocs.io/github.com/vircoys/gopsutil
 
 ## Requirements
 
